@@ -1,0 +1,40 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  /* border: 1px solid black; */
+}
+
+a {
+  font-size: 26px;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  text-decoration: underline;
+}
+
+p {
+  max-width: 80%;
+  background-color: rgb(233, 225, 225);
+}
+
+ol {
+  max-width: 80%;
+}
+
+li {
+  padding-bottom: 10px;
+}
